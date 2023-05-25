@@ -1,0 +1,85 @@
+header{
+    height: 100vh; // 100vh olmalidir.
+    background-image: url("https://preview.colorlib.com/theme/podca/images/hero_bg_1.jpg.webp"); 
+    background-size: 100%;
+    nav {
+        h1{
+            color: white;
+        }
+        .bar{
+            i{
+                font-size: 35px; 
+                color: white;
+            }
+        }
+    }
+    .text{
+        text-align: center;
+        margin-top: 10%;
+    }
+}
+
+
+.record{
+    width: 50%;
+    height: 5vh;
+    padding: 1%;
+    background-color: black;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    color: white;
+    .voice{
+        width: 70%;
+        height: 2vh;
+        background-color: wheat;
+    }
+    .volume{
+        width: 10%;
+        height: 2vh;
+        background-color: wheat;
+    }
+}
+
+
+.main{
+    margin-top: 3%;
+    .rec{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .record{
+            width: 50%;
+            height: 5vh;
+            padding: 1%;
+            background-color: black;
+            display: flex; 
+            align-items: center; 
+            justify-content: space-between;
+            color: white;
+            .voice{
+                width: 70%;
+                height: 2vh;
+                background-color: wheat;
+            }
+            .volume{
+                width: 10%;
+                height: 2vh;
+                background-color: wheat;
+            }
+        }
+    }
+    .podcasts{
+        .card-p{
+            width: 80%;
+            .rov{
+                .image-p{
+                    width: 30%;
+                    height: 100px;
+                    background-image: url('https://preview.colorlib.com/theme/podca/images/img_3.jpg.webp');
+                }
+            }
+        }
+    }
+}
